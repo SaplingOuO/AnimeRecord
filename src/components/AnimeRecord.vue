@@ -172,7 +172,7 @@ export default {
     cardData() {
       for (let i = 0; i < ACGList.length; i++) {
         const card = {
-          imageSrc: "./animeImages/" + ACGList[i].image,
+          imageSrc: "/AnimeRecord/animeImages/" + ACGList[i].image,
           title: ACGList[i].cn,
           tag:
             ACGList[i].cn +
@@ -195,7 +195,7 @@ export default {
       // console.log(this.loadedCount);
       for (let i = 0; i < this.loadedCount; i++) {
         const card = {
-          imageSrc: "./animeImages/" + ACGList[i].image,
+          imageSrc: "/AnimeRecord/animeImages/" + ACGList[i].image,
           title: ACGList[i].cn,
           tag:
             ACGList[i].cn +
@@ -235,7 +235,7 @@ export default {
             break;
           }
           const card = {
-            imageSrc: "./animeImages/" + ACGList[i].image,
+            imageSrc: "/AnimeRecord/animeImages/" + ACGList[i].image,
             title: ACGList[i].cn,
           };
           this.cards.push(card);
