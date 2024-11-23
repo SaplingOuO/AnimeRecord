@@ -5,8 +5,8 @@
 
 module.exports = ({
   publicPath: process.env.NODE_ENV === 'production'
-  ? '/AnimeRecord/'
-  : './',
+  ? '/AnimeRecord'
+  : '/',
   // publicPath: './',
   // outputDir:'./dist',
   // assetsDir:'./static',
