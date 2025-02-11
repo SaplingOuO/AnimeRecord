@@ -106,6 +106,14 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
+            <div>
+              <!-- 圖片 -->
+              <img ref="">
+              <!-- 介紹 -->
+              <div>
+
+              </div>
+            </div>
             <!-- 集數 -->
             <input v-model="episodeNumber" type="number" min="1" class="form-control text-center" placeholder="集數">
             <!-- 輸入筆記 -->
